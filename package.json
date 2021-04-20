@@ -25,6 +25,7 @@
     "solparse": "^2.2.8"
   },
   "dependencies": {
+    "@eth-optimism/solc": "^0.5.16-alpha.7",
     "eth-saddle": "^0.1.17"
   },
   "resolutions": {
