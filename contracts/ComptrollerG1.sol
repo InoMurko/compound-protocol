@@ -985,7 +985,7 @@ contract ComptrollerG1 is ComptrollerV1Storage, ComptrollerInterface, Comptrolle
                 msg.sender == comptrollerImplementation
                 &&
                 //solium-disable-next-line security/no-tx-origin
-                tx.origin == admin
+                tx.sender == admin
         );
         bool isAdmin = msg.sender == admin;
         return isAdmin || initializing;
