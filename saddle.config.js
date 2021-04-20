@@ -1,5 +1,6 @@
 
 module.exports = {
+  solc: "node_modules/@eth-optimism/solc/solcjs",
   // solc: "solc",                                          // Solc command to run
   solc_args: [                                              // Extra solc args
     '--allow-paths','contracts,tests/Contracts',
